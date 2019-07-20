@@ -1,0 +1,31 @@
+
+body{
+  width:300px;
+  background:orange;
+  position:relative;
+}
+#bg{
+  width:0px;
+  height:300px;
+  border-left:150px solid white;
+  border-right:150px solid black;
+  border-radius :100%;
+  text-align:center;
+  position:absolute;
+  left:25%
+}
+#bg>div{
+  box-sizing:border-box;
+  width:150px;
+  height:150px;
+  border-radius :50%;
+  margin-left:-75px;
+}
+#div1{
+  border:50px solid black;
+  background-color:white;
+}
+#div2{
+  border:50px solid white;
+  background-color:black;
+}
